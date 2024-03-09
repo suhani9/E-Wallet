@@ -9,8 +9,8 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <groupId>org.wallet</groupId>
-    <artifactId>user-services</artifactId>
+    <groupId>org.wallet.common</groupId>
+    <artifactId>common</artifactId>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
@@ -19,9 +19,12 @@
     </properties>
     <dependencies>
         <dependency>
-            <groupId>org.wallet.common</groupId>
-            <artifactId>common</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
         </dependency>
     </dependencies>
 

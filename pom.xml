@@ -19,6 +19,7 @@
         <module>wallet-service</module>
         <module>transaction-service</module>
         <module>notification-service</module>
+        <module>common</module>
     </modules>
     <properties>
 		<java.version>21</java.version>
@@ -69,6 +70,7 @@
 			<artifactId>spring-kafka-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
 	</dependencies>
 
 	<build>

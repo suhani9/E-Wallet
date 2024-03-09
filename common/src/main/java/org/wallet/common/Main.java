@@ -1,4 +1,4 @@
-package org.wallet;
+package org.wallet.common;
 
 public class Main {
     public static void main(String[] args) {
